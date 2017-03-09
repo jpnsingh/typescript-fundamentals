@@ -1,0 +1,16 @@
+{
+  "name": "typescript-fundamentals",
+  "version": "1.0.0",
+  "description": "Typescript Fundamentals",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "gulp",
+    "npm",
+    "test"
+  ],
+  "author": "jpnsingh",
+  "license": "ISC"
+}
