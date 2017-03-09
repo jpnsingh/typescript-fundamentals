@@ -12,5 +12,10 @@
     "test"
   ],
   "author": "jpnsingh",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.5",
+    "typescript": "^2.2.1"
+  }
 }
