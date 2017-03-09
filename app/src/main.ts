@@ -1,5 +1,3 @@
-function hello(compiler: string) {
-    console.log(`Hello World From ${compiler}`);
-}
+import {sayHello} from './greet';
 
-hello('TypeScript');
+console.log(sayHello('TypeScript'));
