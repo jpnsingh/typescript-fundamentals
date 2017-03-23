@@ -4,9 +4,9 @@
     var gulp = require('gulp'),
         gulpConfig = require('../config');
 
-    module.exports = gulp.task('html', function () {
+    module.exports = gulp.task('templates', function () {
         return gulp
-            .src(gulpConfig.paths.src.html)
+            .src(gulpConfig.paths.src.templates)
             .pipe(gulp.dest(gulpConfig.paths.dest.root));
     });
 })();

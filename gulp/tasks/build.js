@@ -7,7 +7,7 @@
     module.exports = gulp.task('build', function (callback) {
         runSequence(
             'clean',
-            'html',
+            'less', 'styles', 'images', 'libs', 'templates',
             'browserify',
             callback
         );

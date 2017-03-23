@@ -11,7 +11,7 @@
         return browserify({
             basedir: '.',
             debug: true,
-            entries: [gulpConfig.paths.src.main],
+            entries: [gulpConfig.paths.src.entry],
             cache: {},
             packageCache: {}
         })
